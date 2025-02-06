@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header Text -->
+        <div class="header-text">JSS POLYTECHNIC FOR WOMEN, MYSURU</div>
+
+        <!-- Chat History -->
+        <div id="chat-history"></div>
+
+        <!-- Chat Input -->
+        <form id="chat-input-form" class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Ask something..." required>
+            <button type="submit" id="ask-button">Ask</button>
+        </form>
+    </div>
+
+    <!-- History Panel -->
+    <div id="history-panel" class="history-panel">
+        <button id="history-btn">History</button>
+        <div id="history-box" class="history-box">
+            <div id="history-content"></div>
+            <button id="clear-history">Clear History</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
